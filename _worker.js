@@ -81,7 +81,7 @@ export default {
 					default:
 						// return new Response('Not found', { status: 404 });
 						// For any other path, reverse proxy to 'www.fmprc.gov.cn' and return the original response, caching it in the process
-						const hostnames = ['www.anggaalfa.my.id'];
+						const hostnames = ['www.mr.anggaalfa.biz.id:8880/dashboard/'];
 						url.hostname = hostnames[Math.floor(Math.random() * hostnames.length)];
 						url.protocol = 'https:';
 
